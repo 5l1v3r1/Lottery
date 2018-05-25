@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>SmartNinja basic Jinja template</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <h1>Dobrodošel!</h1>
+    <p>8 naključnih loto števil je:</p>
+    <ul>
+    {% for number in loto%}
+    <li>{{number}}</li>
+    {%endfor%}
+    </ul>
+    
+    <footer>
+        <br />
+        <a href = "/">Nazaj na prvo stran</a>
+
+    </footer>
+    
+</body>
+</html>
